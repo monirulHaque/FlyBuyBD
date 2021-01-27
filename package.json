@@ -1,0 +1,23 @@
+{
+  "name": "flybuybd",
+  "version": "1.0.0",
+  "description": "An ecommerce full-stack website using MERN stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monirulHaque/FlyBuyBD.git"
+  },
+  "author": "Monirul Haque",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/monirulHaque/FlyBuyBD/issues"
+  },
+  "homepage": "https://github.com/monirulHaque/FlyBuyBD#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
