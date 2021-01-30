@@ -25,5 +25,7 @@ app.get("/api/product/:id", (req, res) => {
 
 app.listen(
   PORT,
-  console.log(`Server is running in ${process.env.NODE_ENV} on port ${PORT}!`)
+  console.log(
+    `Server is running in ${process.env.NODE_ENV} on port ${PORT}!`.yellow.bold
+  )
 );
