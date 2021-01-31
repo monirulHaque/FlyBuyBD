@@ -1,6 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import conncetDB from "./config/db.js";
+import colors from "colors";
 import products from "./data/products.js";
 
 dotenv.config();
