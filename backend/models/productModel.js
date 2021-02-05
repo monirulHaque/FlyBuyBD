@@ -2,9 +2,9 @@ import mongoose from "mongoose";
 
 const reviewSchema = mongoose.Schema(
   {
-    name: { type: String, required },
-    rating: { type: Number, required },
-    name: { type: String, required },
+    name: { type: String, required: true },
+    rating: { type: Number, required: true },
+    name: { type: String, required: true },
   },
   {
     timestamps: true,
@@ -62,10 +62,10 @@ const productSchema = mongoose.Schema(
     },
   },
   {
-    timestamps: ture,
+    timestamps: true,
   }
 );
 
-const Product = mongoose.model("Product", userSchema);
+const Product = mongoose.model("Product", productSchema);
 
 export default Product;
